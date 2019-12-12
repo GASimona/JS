@@ -19,5 +19,5 @@ do {
 
 
 document.write("Am cumparat " + chocolates + " ciocolate.");
-document.write(" ");
+document.write("<br>");
 document.write("Mai am " + money + " lei");
