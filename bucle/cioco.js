@@ -1,4 +1,4 @@
-var money = 2;
+var money = 67;
 var price = 5;
 var chocolates = 0;
 
@@ -15,9 +15,16 @@ var chocolates = 0;
 do {
     money -= price;
     chocolates++;
-} while(money >= price);
+} while (money >= price);
 
 
 document.write("Am cumparat " + chocolates + " ciocolate.");
 document.write("<br>");
-document.write("Mai am " + money + " lei");
+
+
+if (money == 1) {
+    document.write("Mai am " + money + " leu");
+}
+else {
+    document.write("Mai am " + money + " lei");
+}
