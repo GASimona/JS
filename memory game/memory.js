@@ -19,3 +19,14 @@ function shuffle(array) {
 }
 shuffle(images);
 console.log(images);
+
+let i ;
+let content = '';
+for(i = 0; i< images.length; i++) {
+    // let html = "<li><img src='" + images[i] + "'></li>";
+
+    
+    let html = `<li><img src="${images[i]}"></li>`;
+    content += html;
+}
+document.querySelector('ul').innerHTML = content;
