@@ -19,12 +19,18 @@ input[type=button] {
     text-transform: uppercase;
 }
 
+ul {
+    width: 70%;
+    margin: auto;
+}
+
 li {
     display: inline-block;
     height: 100px;
     width: 100;
     background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/wild_oliva.png);
     border-radius: 10px;
+    margin: 3px;
 }
 img {
     visibility: hidden;
